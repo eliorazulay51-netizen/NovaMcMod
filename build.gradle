@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url = "https://maven.minecraftforge.net/" }
+        
     }
     dependencies {
         // This MUST be 2.3 for Minecraft 1.12.2
@@ -27,8 +27,6 @@ minecraft {
 }
 
 dependencies {
-    // This is where you will add JJ's AI libraries later
-}
 
 processResources {
     inputs.property "version", project.version

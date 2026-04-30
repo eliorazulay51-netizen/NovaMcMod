@@ -29,7 +29,6 @@ minecraft {
     mappings channel: 'snapshot', version: '20171003-1.12'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
-    // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
     runs {
         client {

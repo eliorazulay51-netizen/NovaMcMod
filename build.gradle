@@ -1,10 +1,10 @@
 buildscript {
     repositories {
         jcenter()
-        // Updated URL for GitHub to find old Forge files
         maven { url = "https://maven.minecraftforge.net/" }
     }
     dependencies {
+        // This MUST be 2.3 for Minecraft 1.12.2
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
 }
@@ -21,13 +21,13 @@ compileJava {
 }
 
 minecraft {
-    version = "1.12.2-14.23.5.2859" // Using the most stable version
+    version = "1.12.2-14.23.5.2860"
     runDir = "run"
-    mappings = "stable_39"
+    mappings = "snapshot_20171003"
 }
 
 dependencies {
-    // You can add JJ's AI library here later if needed
+    // This is where you will add JJ's AI libraries later
 }
 
 processResources {
